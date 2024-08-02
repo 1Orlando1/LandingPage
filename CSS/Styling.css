@@ -2,12 +2,12 @@ body{
     margin:0;
 }
 
-.top, .object, .item, .arrangement, .bottommid, .botmidcon{
+.top, .object, .item, .arrangement, .bottommid, .botmidcon, .lastrow{
     display: flex;
     flex-direction: column;
 }
 
-header, .beneathHeader, .headerLeft, .headerRight, .topmid, .elements{
+header, .beneathHeader, .headerLeft, .headerRight, .topmid, .elements, .lastrowcon{
     display: flex;
 }
 
@@ -142,3 +142,47 @@ img{
     font-size: 18px;
     align-self:flex-end;
 }
+
+.lastrow{
+    justify-content: center;
+    align-items: center;
+}
+
+.lastrowcon{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 100px;
+    padding:40px;
+    border-radius: 8px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+.objecttwo{
+    margin-right:100px;
+    margin-left: 75px;
+}
+
+.action{
+    font-size: 28px;
+    margin-bottom:0px;
+    margin-top: 0px;
+}
+
+.lastbutton{
+    align-self: center;
+    border:2px solid #F9FAF8;
+    border-radius: 6px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.signup{
+    font-size: 20px;
+    margin:0px;
+}
+
+
